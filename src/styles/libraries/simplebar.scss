@@ -1,0 +1,8 @@
+.simplebar-scrollbar {
+  border-radius: 8px !important;
+  background: #f3f4f6 !important;
+
+  &::before {
+    background: #374151 !important;
+  }
+}

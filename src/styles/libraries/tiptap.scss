@@ -1,0 +1,78 @@
+.editor {
+  width: 100%;
+  height: 400px;
+}
+
+.toolbar {
+  position: relative !important;
+  z-index: 10 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  background: #f3f4f6 !important;
+  border: 1px solid #374151 !important;
+  border-bottom: none !important;
+  border-radius: 8px !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  padding: 8px !important;
+}
+
+.ProseMirror {
+  direction: ltr !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #f3f4f6 !important;
+  border: 1px solid #374151 !important;
+  border-top: none !important;
+  border-radius: 8px !important;
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  padding: 16px !important;
+  overflow-y: scroll !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  outline: none !important;
+  line-height: 30px !important;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &-focused {
+    border: 2px solid #4f46e5 !important;
+  }
+
+  p {
+    a {
+      color: #0658A5 !important;
+
+      span {
+        color: #0658A5 !important;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    margin: 16px 0 !important;
+  }
+
+  text-underline-offset: 8px;
+
+}
+
+.ProseMirror__output {
+  width: 100%;
+  max-width: 1200px;
+  line-height: 30px !important;
+  text-underline-offset: 8px;
+
+  span {
+
+    img {
+      width: 100% !important;
+    }
+  }
+
+}

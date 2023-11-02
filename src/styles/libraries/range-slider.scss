@@ -1,0 +1,28 @@
+.rangeslider-horizontal {
+  direction: ltr !important;
+  width: 100% !important;
+  height: 4px !important;
+  border-radius: 8px !important;
+  box-shadow: none!important;
+  margin: 0 !important;
+}
+
+.rangeslider {
+  background: #f3f4f6 !important;
+
+  &__fill {
+    background: #4f46e5 !important;
+  }
+
+  &__handle {
+    width: 16px!important;
+    height: 16px!important;
+    background: #4f46e5 !important;
+    border: 2px solid #f3f4f6!important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px!important;
+
+    &::after{
+      display: none!important;
+    }
+  }
+}
